@@ -39,7 +39,6 @@ const ProductsPage = () => {
                     <option value="beauty">Beauty</option>
                     <option value="groceries">Groceries</option>
                     <option value="fragrances">Fragrances</option>
-                    {/* Add more categories as needed */}
                 </select>
             </div>
             {loading && <p className="text-center">Loading...</p>}

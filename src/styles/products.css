@@ -80,18 +80,18 @@
 .close-button {
     background-color: transparent;
     border: none;
-    font-size: 1.5rem; /* Adjust size as needed */
-    color: #007bff; /* Bootstrap link color */
+    font-size: 1.5rem;
+    color: #007bff; 
     transition: color 0.2s ease-in-out;
 }
 
 .close-button:hover {
-    color: #0056b3; /* Darker shade on hover */
+    color: #0056b3; 
     cursor: pointer;
 }
 
 .close-button:focus {
-    outline: none; /* Remove focus outline */
+    outline: none;
 }
 .update-cart, .clear-cart{
     margin-right: 20px;

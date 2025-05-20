@@ -1,15 +1,13 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
-// Define the interface for a cart item
+
 interface CartItem {
     id: number;
     title: string;
     price: number;
     quantity: number;
-    // add any other properties as necessary
 }
 
-// Define the structure of the Cart context
 interface CartContextType {
     cart: CartItem[];
     addToCart: (product: CartItem, quantity: number) => void;
@@ -18,7 +16,6 @@ interface CartContextType {
     clearCart: () => void;
 }
 
-// Create a context with a default value
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export const useCart = () => {
